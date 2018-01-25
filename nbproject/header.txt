@@ -1,0 +1,11 @@
+<#if licenseFirst??>
+${licenseFirst}
+</#if>
+${licensePrefix}UNIVERSIDAD DE LA SIERRA SUR.
+${licensePrefix}Licenciatura en Informática
+${licensePrefix}Bases de Datos Distribuidas.
+${licensePrefix}Daniel Humberto Ramírez Juárez.
+${licensePrefix}Fecha ${date?date?string("dd-mm-yyyy")}.
+<#if licenseLast??>
+${licenseLast}
+</#if>
